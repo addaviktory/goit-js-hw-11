@@ -92,7 +92,7 @@ body{
     transition: all 0.3s;
   }
   .gallery {
-    background: linear-gradient(to right, #fceabb, #FFFFBA);
+    background-color: #FFFFBA;
     display: flex;
     align-items: center;
     justify-content: center;
