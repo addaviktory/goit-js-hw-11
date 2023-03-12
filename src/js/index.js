@@ -58,7 +58,7 @@ async function onSubmit(event) {
 
   await insertMarkup();
   if (serviceApi.arrRespLength === 0) {
-    Notiflix.Notify.failure('Try to Enter another word');
+    Notiflix.Notify.failure('Sorry, there are no images matching your search query. Please try again.');
     return;
   }
   if (serviceApi.respDataTotal !== 0) {
