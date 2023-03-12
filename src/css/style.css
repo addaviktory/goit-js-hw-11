@@ -1,44 +1,44 @@
-body{
-    background-color: #FFFFBA;;
-    margin: 0;
+body {
+  background-color: #ffffba;
+  margin: 0;
 }
 
-.hidden{
-    display: none;
+.hidden {
+  display: none;
 }
 
-.search-form{
-    z-index: 2;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    background-color: #1c2c78;
-    height: 10%;
-    top: 0;
-    box-shadow: 0px 3px 5px black;
+.search-form {
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: #1c2c78;
+  height: 10%;
+  top: 0;
+  box-shadow: 0px 3px 5px black;
 }
-.input-position{
-    position: relative;
-    display: flex;
-    align-items: center;
+.input-position {
+  position: relative;
+  display: flex;
+  align-items: center;
 }
-.input{
-    width: 420px;
-    height: 28px;
-    border-radius: 10px;
+.input {
+  width: 420px;
+  height: 28px;
+  border-radius: 10px;
 }
-.btn-submit{
-    cursor: pointer;
-    width: 20%;
-    height: 70%;
-    border: none;
-    border-radius: 6px;
-    position: absolute;
-    right: 10px;
+.btn-submit {
+  cursor: pointer;
+  width: 20%;
+  height: 70%;
+  border: none;
+  border-radius: 6px;
+  position: absolute;
+  right: 10px;
 }
-.btn-submit:hover{
+.btn-submit:hover {
   background-color: #1c2c78;
   color: white;
   transition: 300ms;
@@ -67,83 +67,83 @@ body{
 .btn-load {
   margin-bottom: 28px;
 }
-  
-  .hidden {
-    display: none;
-  }
-  
-  .photo-card {
-    width: 380px;
-    border-radius: 4px;
-  }
-  
-  .gallery__item {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
-    font-style: normal;
-    background-color: #f8f7f6;
-    margin-bottom: 30px;
-    text-decoration: none;
-    color: #5a6a7d;
-    border-radius: 4px;
-    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
-      1px 4px 6px rgb(0 0 0 / 16%);
-  
-    transition: all 0.3s;
-  }
-  .gallery {
-    background-color: #FFFFBA;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 16px;
-    margin-top: 100px;
-  }
 
-  .gallery__item:hover,
-  .gallery__item:focus {
-    transform: scale(1.03);
-    cursor: pointer;
-  }
-  
-  .disabled {
-    font-family: sans-serif;
-    background-color: #8194aa;
-    border-radius: 2px;
-    color: rgb(182, 172, 172);
-    height: 30px;
-  }
-  
-  .disabled:hover {
-    font-family: sans-serif;
-    background-color: #8194aa;
-    border-radius: 2px;
-    color: rgb(182, 172, 172);
-    height: 30px;
-  }
+.hidden {
+  display: none;
+}
 
-  .img {
-    box-sizing: content-box;
-    object-fit: cover;
-    width: 380px;
-    height: 252px;
-    border-top-right-radius: 4px;
-    border-top-left-radius: 4px;
-  }
-  
-  .link-slider {
-    width: 380px;
-    height: 252px;
-  }
-  
-  .info {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: auto;
-    gap: 30px;
-    width: 380px;
-    height: auto;
-    box-shadow: #009fff4a;
-  }
+.photo-card {
+  width: 380px;
+  border-radius: 4px;
+}
+
+.gallery__item {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  background-color: #f8f7f6;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: #5a6a7d;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
+    1px 4px 6px rgb(0 0 0 / 16%);
+
+  transition: all 0.3s;
+}
+.gallery {
+  background-color: #ffffba;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 100px;
+}
+
+.gallery__item:hover,
+.gallery__item:focus {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.disabled {
+  font-family: sans-serif;
+  background-color: #8194aa;
+  border-radius: 2px;
+  color: rgb(182, 172, 172);
+  height: 30px;
+}
+
+.disabled:hover {
+  font-family: sans-serif;
+  background-color: #8194aa;
+  border-radius: 2px;
+  color: rgb(182, 172, 172);
+  height: 30px;
+}
+
+.img {
+  box-sizing: content-box;
+  object-fit: cover;
+  width: 380px;
+  height: 252px;
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.link-slider {
+  width: 380px;
+  height: 252px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: auto;
+  gap: 30px;
+  width: 380px;
+  height: auto;
+  box-shadow: #009fff4a;
+}
